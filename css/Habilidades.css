@@ -1,0 +1,111 @@
+/* Seção Habilidades */
+#habilidades {
+    color: #fff;
+    position: relative;
+    padding: 80px 20px;
+    background-color: #131313;
+}
+
+#habilidades span {
+    color: #ffee5c;
+}
+
+#habilidades .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#habilidades h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.habilidades-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.habilidade {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.habilidade img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.habilidade h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.habilidade p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.habilidade:hover {
+    transform: translateY(-10px);
+}
+
+/* Botão de contato */
+.btn-contato {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ffee5c;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-contato:hover {
+    background-color: #ffcc00;
+}
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    #habilidades .habilidades-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #habilidades h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #habilidades .habilidades-list {
+        grid-template-columns: 1fr;
+    }
+
+    #habilidades h2 {
+        font-size: 1.8rem;
+    }
+
+    .habilidade h3 {
+        font-size: 1.3rem;
+    }
+
+    .habilidade p {
+        font-size: 0.9rem;
+    }
+
+    .btn-contato {
+        font-size: 1rem;
+        padding: 12px 25px;
+    }
+}

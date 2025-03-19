@@ -1,0 +1,62 @@
+
+/* Seção Como Funciona */
+#como-funciona h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.negociar {
+    background-color: #222;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.negociar h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.negociar p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #bbb;
+}
+
+.negociar .btn-contato {
+    display: inline-block; /* Certifique-se de usar um container adequado para alinhamento */
+    width: 95%; /* Para ocupar de um lado ao outro */
+    background-color: #f7fa50;
+    color: #000000;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombras para um efeito mais elegante */
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.negociar .btn-contato:hover {
+    background-color: #9c9e1e; /* Cor ao passar o mouse */
+    transform: scale(1.05); /* Efeito de crescimento no hover */
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3); /* Sombras mais fortes */
+}
+
+.negociar .btn-contato:active {
+    transform: scale(0.98); /* Redução ao clicar */
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.4); /* Redução das sombras ao clicar */
+}
+
+.negociar .vendas_texto{
+    margin-top: 20px;
+    color: #f4f4f4;
+}
+.negociar .vendas_texto span{
+    margin-top: 20px;
+    color: #ddc910;
+}

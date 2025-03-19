@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+    /* Habilidades */
+    .habilidades-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Carrossel de vídeo */
+    .video-carousel {
+        flex-direction: column;
+    }
+
+    .video {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Navegação */
+    nav ul {
+        display: none;
+    }
+
+    /* Header */
+    header {
+        text-align: center;
+    }
+
+    /* Experiência */
+    .experiencia-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Planos */
+    .planos-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Negociar */
+    .negociar h2 {
+        font-size: 1.8rem;
+    }
+
+    .negociar p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Container */
+    .container {
+        width: 95%;
+    }
+
+    /* Títulos */
+    #sobre h2, #habilidades h2, #carrossel h2, #experiencia h2, #como-funciona h2 {
+        font-size: 2rem;
+    }
+
+    /* Carrossel de vídeo */
+    .video-carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Links sociais */
+    .social-links {
+        margin-top: 20px;
+    }
+
+    /* Experiência */
+    .experiencia-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* Planos */
+    .planos-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* Negociar */
+    .negociar h2 {
+        font-size: 1.6rem;
+    }
+}
